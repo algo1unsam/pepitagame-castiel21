@@ -15,6 +15,7 @@ object pepita {
 		}
 	method come(comida) {
 		energia = energia + comida.energiaQueOtorga()
+		game.removeVisual(comida)
 	}
 
 	method vola(kms) {
